@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.nav {
+    background-color: #333;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
+    position: fixed;
+
+}
+
+.nav ul{
+    padding: 1;
+    margin: 1;
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav li{
+    font-size: 28px;
+    font-family: 'sans-serif';
+}
+
+.nav li.active{
+    background-color: #555;
+}
+
+.nav li.hover{
+    background-color: #888;
+}
